@@ -1,0 +1,15 @@
+please follow the below steps:
+1-download the project from github to your Mac.
+2-you have to install the pods, so open the terminal, and go to file location , just tap cd and drag and drop the file, and press enter.
+3- after tht, tap "pod install", then the pods will be installed, open the xcwokspace file.
+
+Libraries used: Alamofire, Kingfisher,SVProgressHUD
+Alamofire is a networking library, making it easier to for developers to make web request and get data.
+Kingfisher is a image downloading library, developer can download an image and set it in its imageView in just 2 lines.Moreover, the library cashes the images.
+SVProgressHUD is used to fire loaders, when a request happens, or when we want the user to wait for a several
+action to be done, we could have used an activity indicator, but this library is much easier and faster in implementation using.
+
+About the project:
+-We added Unit testing and we used MVVM instead of MVC.
+-in the cell, where we display the data, we are using if let... and if the data is empty, the object will not be displayed. i dont want to display any cell without title, or description, all data should be displayed, or the object will not be displayed, we could have set them to empty strings(the missing data), but i used this structure.
+-regarding to unit testing, we made tests for the tableview, and for the data of the cell.
